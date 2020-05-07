@@ -18,7 +18,7 @@
 
 
 def find_min_in_nested_arrays(src)
-  new_array = Arrau.new
+  new_array = Array.new
   row_index = 0 
   while row_index < src.length do 
     element_index = 0 
